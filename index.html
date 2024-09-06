@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <section>
+            <header>
+                <div class="header-style">
+                    <h1>To Do List</h1>
+                    <input type="text">
+                    <button id="create-item">Add Task</button>
+                    <div class="flex-horizontal">
+                        <button class="flex-horizontal" id="reset-btn">Reset</button>
+                    </div>
+                </div>
+                
+            </header>
+            <main class="item-list">
+                <ul aria-live="polite">
+                </ul>
+            </main>
+            <footer>
+                <p>Created by <a href="https://github.com/LawrenceRadburn">Lawrence Radburn</a></p>
+            </footer>
+        </section>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
